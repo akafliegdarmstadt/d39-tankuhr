@@ -92,7 +92,7 @@ void level_sensor_init(void)
 
 float level_sensor_read(void)
 {
-    const int level_raw = (float) adc1_get_raw(LEVEL_SENSOR_PIN); // 0..4096
+    const float level_raw = (float) adc1_get_raw(LEVEL_SENSOR_PIN); // 0..4096
     // lerp
     const float level = LEVEL_CALIBRATION_LOW +
         ((level_raw * (LEVEL_CALIBRATION_HIGH - LEVEL_CALIBRATION_LOW)) / 4096.0);
@@ -147,7 +147,7 @@ void app_main(void)
             "display",
             4096,
             NULL,
-            5,
+            4,
             NULL
     );
 }
