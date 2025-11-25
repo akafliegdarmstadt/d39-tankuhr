@@ -1805,7 +1805,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:BAT54W"
+		(symbol "Diode:1N5819WS"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1821,7 +1824,7 @@
 					)
 				)
 			)
-			(property "Value" "BAT54W"
+			(property "Value" "1N5819WS"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1829,7 +1832,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(property "Footprint" "Diode_SMD:D_SOD-323"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -1838,7 +1841,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1847,7 +1850,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Schottky barrier diode, SOT-323"
+			(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1856,7 +1859,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "schottky diode"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1865,7 +1868,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?323*"
+			(property "ki_fp_filters" "D*SOD?323*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1874,7 +1877,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BAT54W_0_1"
+			(symbol "1N5819WS_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -1912,7 +1915,7 @@
 					)
 				)
 			)
-			(symbol "BAT54W_1_1"
+			(symbol "1N5819WS_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1923,26 +1926,7 @@
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1960,7 +1944,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3600,6 +3584,12 @@
 		(uuid "4e6705f7-9360-44fd-8e9b-559adc7cf1e0")
 	)
 	(junction
+		(at 144.78 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "574b1fa9-2473-4568-8c4e-eb549f8e3717")
+	)
+	(junction
 		(at 69.85 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3622,18 +3612,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8c32c1f-72f4-4ab3-8d41-035890f7dd05")
-	)
-	(junction
-		(at 41.91 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab3835f8-1751-4abe-8931-c7a5c2543997")
-	)
-	(junction
-		(at 144.78 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af2f7dbf-ccad-4ef2-bc70-02e48ebbd9e2")
 	)
 	(junction
 		(at 41.91 99.06)
@@ -3670,6 +3648,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed838f63-a0b9-41f2-bdce-64247a5ed547")
+	)
+	(junction
+		(at 41.91 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f40cc47b-131c-4df7-bb37-89249871c942")
 	)
 	(junction
 		(at 81.28 41.91)
@@ -3756,6 +3740,16 @@
 			(type default)
 		)
 		(uuid "06a58e9d-99bc-4199-9257-fe7690742011")
+	)
+	(wire
+		(pts
+			(xy 144.78 114.3) (xy 144.78 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06cf8a25-96d8-4852-b957-d08aa73e6212")
 	)
 	(wire
 		(pts
@@ -3879,6 +3873,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 114.3) (xy 38.1 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e8dd9e8-23df-4a37-bb75-f771af26af5e")
+	)
+	(wire
+		(pts
 			(xy 167.64 127) (xy 173.99 127)
 		)
 		(stroke
@@ -3979,26 +3983,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 109.22) (xy 144.78 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cb83dcd-cbe7-4a8f-aab4-a9972b2138ef")
-	)
-	(wire
-		(pts
-			(xy 35.56 111.76) (xy 38.1 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e7c7a8e-e017-49a0-8643-b830a4d58c06")
-	)
-	(wire
-		(pts
 			(xy 163.83 40.64) (xy 166.37 40.64)
 		)
 		(stroke
@@ -4029,6 +4013,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 111.76) (xy 144.78 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "570e7427-fe5d-4b7a-8ec5-4691e1b3fa6d")
+	)
+	(wire
+		(pts
 			(xy 68.58 41.91) (xy 69.85 41.91)
 		)
 		(stroke
@@ -4046,16 +4040,6 @@
 			(type default)
 		)
 		(uuid "5b44edc1-5284-4deb-9506-6e50291aded2")
-	)
-	(wire
-		(pts
-			(xy 35.56 109.22) (xy 41.91 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b81a8a4-615a-4c9e-90e9-c2fdb10815a2")
 	)
 	(wire
 		(pts
@@ -4259,16 +4243,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 114.3) (xy 144.78 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d082042-ec6c-4519-9c46-4303378a074c")
-	)
-	(wire
-		(pts
 			(xy 173.99 127) (xy 181.61 127)
 		)
 		(stroke
@@ -4389,6 +4363,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 109.22) (xy 41.91 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "accd0047-6b19-45f7-a254-b4b2e2e05982")
+	)
+	(wire
+		(pts
 			(xy 69.85 41.91) (xy 69.85 57.15)
 		)
 		(stroke
@@ -4429,7 +4413,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 127) (xy 144.78 114.3)
+			(xy 144.78 111.76) (xy 144.78 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4529,6 +4513,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 111.76) (xy 38.1 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5f4714-a467-4376-af61-18a993ee18e4")
+	)
+	(wire
+		(pts
 			(xy 34.29 185.42) (xy 34.29 189.23)
 		)
 		(stroke
@@ -4536,6 +4530,16 @@
 			(type default)
 		)
 		(uuid "d418b176-9523-476f-8c64-b58671d0a8e3")
+	)
+	(wire
+		(pts
+			(xy 142.24 114.3) (xy 144.78 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d442b03a-6050-419f-a470-6e10f0f5465e")
 	)
 	(wire
 		(pts
@@ -4579,16 +4583,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 111.76) (xy 144.78 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df76bf61-94e6-41f0-a16e-80b27c4c373e")
-	)
-	(wire
-		(pts
 			(xy 81.28 41.91) (xy 87.63 41.91)
 		)
 		(stroke
@@ -4609,6 +4603,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 109.22) (xy 144.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e75ca242-35ea-4bb3-8a50-63fe00980f78")
+	)
+	(wire
+		(pts
 			(xy 60.96 25.4) (xy 81.28 25.4)
 		)
 		(stroke
@@ -4626,16 +4630,6 @@
 			(type default)
 		)
 		(uuid "e7fab8df-1353-43cd-b1a2-792ecdea26ef")
-	)
-	(wire
-		(pts
-			(xy 38.1 114.3) (xy 35.56 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8f6bbdc-5583-42fc-b673-9a0bdbe5ef7b")
 	)
 	(wire
 		(pts
@@ -4666,16 +4660,6 @@
 			(type default)
 		)
 		(uuid "ed0b07bd-d59d-45b9-ab3d-3d85996f222d")
-	)
-	(wire
-		(pts
-			(xy 142.24 111.76) (xy 144.78 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee702f5c-f5d1-4c4f-bceb-25776b11edae")
 	)
 	(wire
 		(pts
@@ -5221,6 +5205,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" "SMD-0805 150"
+			(at 38.1 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9bf6742-99ee-4026-b27b-0f0bf2d2ebd2")
 		)
@@ -5433,6 +5426,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" "EVL 17-21SYGC"
+			(at 27.94 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "886deada-c300-4fdb-8952-5385eab607d1")
 		)
@@ -5636,6 +5638,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" "SMD-0805 150"
+			(at 46.99 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "555f6de3-e1d3-449e-bb75-cd18a3276c98")
 		)
@@ -5646,6 +5657,83 @@
 			(project "tankuhr"
 				(path "/1ac5f5cb-42dc-4555-9731-1dcf739e4be9"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819WS")
+		(at 158.75 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22760a94-9b97-4236-a9a2-48df8f13bd33")
+		(property "Reference" "D1"
+			(at 159.0675 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5819WS"
+			(at 159.0675 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 158.75 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(at 158.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(at 158.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr" "1N5819HW-7-F"
+			(at 158.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14bef067-6b3b-4fd4-a655-fb28049738b3")
+		)
+		(pin "2"
+			(uuid "c961c3b5-eb21-4607-bb92-b3bd88ac5836")
+		)
+		(instances
+			(project ""
+				(path "/1ac5f5cb-42dc-4555-9731-1dcf739e4be9"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6035,6 +6123,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" ""
+			(at 198.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0bfbad9c-cecc-41d6-ae73-4dd713137209")
 		)
@@ -6097,6 +6194,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 116.84 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr" ""
 			(at 116.84 170.18 0)
 			(effects
 				(font
@@ -6304,6 +6410,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" "M-A 4,7U 50"
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4cde33e1-48aa-442a-b577-e219f11cd49b")
 		)
@@ -6371,6 +6486,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" "SMD-0805 10,0K"
+			(at 60.96 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd595e36-7285-4243-9e79-b348dd80c3d2")
 		)
@@ -6431,6 +6555,15 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, SOT-23-5"
+			(at 60.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr" "MCP6001T-I/OT"
 			(at 60.96 41.91 0)
 			(effects
 				(font
@@ -6650,6 +6783,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" "M-A 10U 50"
+			(at 173.99 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "47e04b3e-2932-4107-80ff-ebc2886536d5")
 		)
@@ -6778,6 +6920,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 63.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr" ""
 			(at 63.5 170.18 0)
 			(effects
 				(font
@@ -6982,6 +7133,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" ""
+			(at 129.54 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3134d035-8754-44fb-b44a-3d94e6a03c0e")
 		)
@@ -6996,16 +7156,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 217.17 81.28 0)
+		(at 217.17 83.82 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "610937ff-cc88-4387-b778-3117a9ae224e")
 		(property "Reference" "J2"
-			(at 215.9 83.8201 0)
+			(at 215.9 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7014,7 +7174,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 215.9 81.2801 0)
+			(at 215.9 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7022,8 +7182,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
-			(at 217.17 81.28 0)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical"
+			(at 217.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7032,7 +7192,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 81.28 0)
+			(at 217.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7041,7 +7201,16 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 217.17 81.28 0)
+			(at 217.17 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr" "MOLEX 533980471"
+			(at 217.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,6 +7424,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" ""
+			(at 177.8 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "79b51c57-ba25-441a-a361-4554ac718ae6")
 		)
@@ -7325,6 +7503,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" "SMD-0805 4,70K"
+			(at 41.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f58961e7-2aef-4d3e-82c0-327a40f904e2")
 		)
@@ -7359,7 +7546,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n / >35V"
+		(property "Value" "100n"
 			(at 92.71 25.3999 0)
 			(effects
 				(font
@@ -7387,6 +7574,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 88.9 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr" "KEM X7R0805 100N"
 			(at 88.9 24.13 0)
 			(effects
 				(font
@@ -7862,6 +8058,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" ""
+			(at 158.75 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0dbe75c4-6274-45ec-a3fb-236a97ab6ccf")
 		)
@@ -7939,6 +8144,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" "EVL 17-21SYGC"
+			(at 46.99 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a89eed84-a199-49ac-8497-5cc16a06feb4")
 		)
@@ -8001,6 +8215,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 143.51 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr" "XIAO ESP32C6"
 			(at 143.51 52.07 0)
 			(effects
 				(font
@@ -8203,6 +8426,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" ""
+			(at 57.15 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4decd705-8a60-4c2b-987c-6d7401a402c1")
 		)
@@ -8331,6 +8563,15 @@
 			)
 		)
 		(property "Description" "500mA Step-Down DC/DC-Regulator, 7-28V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr" "R-78E50-05"
 			(at 191.77 106.68 0)
 			(effects
 				(font
@@ -8542,6 +8783,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" "SMD-0805 220"
+			(at 46.99 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "78a5237a-69ad-464d-9d5f-958e8bacede3")
 		)
@@ -8625,16 +8875,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 30.48 111.76 0)
+		(at 30.48 114.3 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "99040bb5-77ab-4547-a864-0bed53cf5ce3")
 		(property "Reference" "J3"
-			(at 29.21 114.3001 0)
+			(at 29.21 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8643,7 +8893,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 29.21 111.7601 0)
+			(at 29.21 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8651,8 +8901,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
-			(at 30.48 111.76 0)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical"
+			(at 30.48 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8661,7 +8911,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 111.76 0)
+			(at 30.48 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8670,7 +8920,16 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 30.48 111.76 0)
+			(at 30.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr" "MOLEX 533980471"
+			(at 30.48 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8746,6 +9005,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 50.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr" "KEM X7R0805 1,0N"
 			(at 50.8 82.55 0)
 			(effects
 				(font
@@ -8956,6 +9224,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" ""
+			(at 63.5 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/1ac5f5cb-42dc-4555-9731-1dcf739e4be9"
@@ -8984,7 +9261,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n / >35V"
+		(property "Value" "100n"
 			(at 181.61 25.3999 0)
 			(effects
 				(font
@@ -9012,6 +9289,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 177.8 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr" "KEM X7R0805 100N"
 			(at 177.8 24.13 0)
 			(effects
 				(font
@@ -9288,6 +9574,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" "SMD-0805 4,70K"
+			(at 38.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6a4767e-9e27-4c67-90dd-2cc6b80c4606")
 		)
@@ -9305,8 +9600,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 137.16 111.76 0)
-		(mirror x)
+		(at 137.16 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9314,7 +9608,7 @@
 		(dnp no)
 		(uuid "becf53f4-c6d4-42e7-aac9-902990ce9b68")
 		(property "Reference" "J1"
-			(at 135.89 109.2199 0)
+			(at 135.89 111.7601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9323,7 +9617,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 135.89 111.7599 0)
+			(at 135.89 109.2201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9331,8 +9625,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
-			(at 137.16 111.76 0)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical"
+			(at 137.16 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9341,7 +9635,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 111.76 0)
+			(at 137.16 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9350,7 +9644,16 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 137.16 111.76 0)
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr" "MOLEX 533980471"
+			(at 137.16 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9434,6 +9737,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" ""
+			(at 76.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "tankuhr"
 				(path "/1ac5f5cb-42dc-4555-9731-1dcf739e4be9"
@@ -9490,6 +9802,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 35.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr" "SMD-0805 3,30K"
 			(at 35.56 34.29 0)
 			(effects
 				(font
@@ -9565,6 +9886,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" "SMD-0805 1,00K"
+			(at 48.26 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "280f14d0-3a77-43ab-a295-6f26b32d17b3")
 		)
@@ -9632,6 +9962,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" "KEM X7R0805 100N"
+			(at 60.96 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "201bb88c-fd04-435b-b0cf-4cca899ac4ba")
 		)
@@ -9666,7 +10005,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n / >35V"
+		(property "Value" "100n"
 			(at 204.47 25.3999 0)
 			(effects
 				(font
@@ -9694,6 +10033,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 200.66 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr" "KEM X7R0805 100N"
 			(at 200.66 24.13 0)
 			(effects
 				(font
@@ -9905,6 +10253,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" "SMD-0805 150"
+			(at 27.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "156c364e-c97a-44ac-8b9f-ba0dd8a9038d")
 		)
@@ -9915,77 +10272,6 @@
 			(project "tankuhr"
 				(path "/1ac5f5cb-42dc-4555-9731-1dcf739e4be9"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAT54W")
-		(at 158.75 106.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "decc3a54-470b-4ca5-b607-d87039e91759")
-		(property "Reference" "D1"
-			(at 159.0675 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54W"
-			(at 159.0675 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 158.75 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf"
-			(at 158.75 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky barrier diode, SOT-323"
-			(at 158.75 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "34a18f24-acc7-440a-b43f-006a57fb777f")
-		)
-		(pin "2"
-			(uuid "aa6cfd8f-2b4e-4971-9691-8494a3080129")
-		)
-		(pin "1"
-			(uuid "64f026c4-238e-4978-8e4a-db6de97a5db9")
-		)
-		(instances
-			(project ""
-				(path "/1ac5f5cb-42dc-4555-9731-1dcf739e4be9"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10038,6 +10324,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 144.78 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr" ""
 			(at 144.78 170.18 0)
 			(effects
 				(font
@@ -10189,6 +10484,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" "EVL 17-21SYGC"
+			(at 38.1 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6831cd31-c63f-4a13-a450-dfad2a5eba41")
 		)
@@ -10317,6 +10621,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 49.53 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr" "SMD-0805 4,70K"
 			(at 49.53 102.87 0)
 			(effects
 				(font
@@ -10460,6 +10773,15 @@
 				(hide yes)
 			)
 		)
+		(property "Reichelt Nr" ""
+			(at 76.2 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "tankuhr"
 				(path "/1ac5f5cb-42dc-4555-9731-1dcf739e4be9"
@@ -10514,6 +10836,15 @@
 			)
 		)
 		(property "Description" "Micro SD Card Socket with one card detection pin"
+			(at 248.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr" ""
 			(at 248.92 48.26 0)
 			(effects
 				(font
@@ -10673,6 +11004,15 @@
 		)
 		(property "Description" "Fuse"
 			(at 151.13 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr" "PTC FSMD1001206R"
+			(at 151.13 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
