@@ -5214,6 +5214,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" "C856688"
+			(at 38.1 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9bf6742-99ee-4026-b27b-0f0bf2d2ebd2")
 		)
@@ -5435,6 +5444,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" "C919444"
+			(at 27.94 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "886deada-c300-4fdb-8952-5385eab607d1")
 		)
@@ -5647,6 +5665,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" "C856688"
+			(at 46.99 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "555f6de3-e1d3-449e-bb75-cd18a3276c98")
 		)
@@ -5716,6 +5743,15 @@
 			)
 		)
 		(property "Reichelt Nr" "1N5819HW-7-F"
+			(at 158.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Nr" "C191023"
 			(at 158.75 106.68 0)
 			(effects
 				(font
@@ -6132,6 +6168,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" ""
+			(at 198.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0bfbad9c-cecc-41d6-ae73-4dd713137209")
 		)
@@ -6203,6 +6248,15 @@
 			)
 		)
 		(property "Reichelt Nr" ""
+			(at 116.84 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Nr" ""
 			(at 116.84 170.18 0)
 			(effects
 				(font
@@ -6419,6 +6473,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" "C178709"
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4cde33e1-48aa-442a-b577-e219f11cd49b")
 		)
@@ -6487,6 +6550,15 @@
 			)
 		)
 		(property "Reichelt Nr" "SMD-0805 10,0K"
+			(at 60.96 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Nr" "C84376"
 			(at 60.96 57.15 90)
 			(effects
 				(font
@@ -6564,6 +6636,15 @@
 			)
 		)
 		(property "Reichelt Nr" "MCP6001T-I/OT"
+			(at 60.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Nr" "C116490"
 			(at 60.96 41.91 0)
 			(effects
 				(font
@@ -6792,6 +6873,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" "C713348"
+			(at 173.99 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "47e04b3e-2932-4107-80ff-ebc2886536d5")
 		)
@@ -6929,6 +7019,15 @@
 			)
 		)
 		(property "Reichelt Nr" ""
+			(at 63.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Nr" ""
 			(at 63.5 170.18 0)
 			(effects
 				(font
@@ -7142,6 +7241,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" ""
+			(at 129.54 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3134d035-8754-44fb-b44a-3d94e6a03c0e")
 		)
@@ -7210,6 +7318,15 @@
 			)
 		)
 		(property "Reichelt Nr" "MOLEX 533980471"
+			(at 217.17 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Nr" "C17617036"
 			(at 217.17 83.82 0)
 			(effects
 				(font
@@ -7433,6 +7550,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" ""
+			(at 177.8 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "79b51c57-ba25-441a-a361-4554ac718ae6")
 		)
@@ -7512,6 +7638,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" "C60816"
+			(at 41.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f58961e7-2aef-4d3e-82c0-327a40f904e2")
 		)
@@ -7583,6 +7718,15 @@
 			)
 		)
 		(property "Reichelt Nr" "KEM X7R0805 100N"
+			(at 88.9 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Nr" "C49678"
 			(at 88.9 24.13 0)
 			(effects
 				(font
@@ -8067,6 +8211,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" ""
+			(at 158.75 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0dbe75c4-6274-45ec-a3fb-236a97ab6ccf")
 		)
@@ -8153,6 +8306,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" "C919444"
+			(at 46.99 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a89eed84-a199-49ac-8497-5cc16a06feb4")
 		)
@@ -8224,6 +8386,15 @@
 			)
 		)
 		(property "Reichelt Nr" "XIAO ESP32C6"
+			(at 143.51 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Nr" ""
 			(at 143.51 52.07 0)
 			(effects
 				(font
@@ -8435,6 +8606,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" ""
+			(at 57.15 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4decd705-8a60-4c2b-987c-6d7401a402c1")
 		)
@@ -8572,6 +8752,15 @@
 			)
 		)
 		(property "Reichelt Nr" "R-78E50-05"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Nr" "C18212367"
 			(at 191.77 106.68 0)
 			(effects
 				(font
@@ -8792,6 +8981,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" "C865304"
+			(at 46.99 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "78a5237a-69ad-464d-9d5f-958e8bacede3")
 		)
@@ -8937,6 +9135,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" "C17617036"
+			(at 30.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "3e6e30f2-7654-41e0-b018-246de416c835")
 		)
@@ -9014,6 +9221,15 @@
 			)
 		)
 		(property "Reichelt Nr" "KEM X7R0805 1,0N"
+			(at 50.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Nr" "C94121"
 			(at 50.8 82.55 0)
 			(effects
 				(font
@@ -9233,6 +9449,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" ""
+			(at 63.5 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/1ac5f5cb-42dc-4555-9731-1dcf739e4be9"
@@ -9298,6 +9523,15 @@
 			)
 		)
 		(property "Reichelt Nr" "KEM X7R0805 100N"
+			(at 177.8 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Nr" "C49678"
 			(at 177.8 24.13 0)
 			(effects
 				(font
@@ -9583,6 +9817,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" "C60816"
+			(at 38.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6a4767e-9e27-4c67-90dd-2cc6b80c4606")
 		)
@@ -9653,6 +9896,15 @@
 			)
 		)
 		(property "Reichelt Nr" "MOLEX 533980471"
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Nr" "C17617036"
 			(at 137.16 109.22 0)
 			(effects
 				(font
@@ -9746,6 +9998,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" ""
+			(at 76.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "tankuhr"
 				(path "/1ac5f5cb-42dc-4555-9731-1dcf739e4be9"
@@ -9811,6 +10072,15 @@
 			)
 		)
 		(property "Reichelt Nr" "SMD-0805 3,30K"
+			(at 35.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Nr" "C114531"
 			(at 35.56 34.29 0)
 			(effects
 				(font
@@ -9895,6 +10165,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" "C95781"
+			(at 48.26 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "280f14d0-3a77-43ab-a295-6f26b32d17b3")
 		)
@@ -9963,6 +10242,15 @@
 			)
 		)
 		(property "Reichelt Nr" "KEM X7R0805 100N"
+			(at 60.96 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Nr" "C49678"
 			(at 60.96 66.04 90)
 			(effects
 				(font
@@ -10042,6 +10330,15 @@
 			)
 		)
 		(property "Reichelt Nr" "KEM X7R0805 100N"
+			(at 200.66 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Nr" "C49678"
 			(at 200.66 24.13 0)
 			(effects
 				(font
@@ -10262,6 +10559,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" "C856688"
+			(at 27.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "156c364e-c97a-44ac-8b9f-ba0dd8a9038d")
 		)
@@ -10333,6 +10639,15 @@
 			)
 		)
 		(property "Reichelt Nr" ""
+			(at 144.78 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Nr" ""
 			(at 144.78 170.18 0)
 			(effects
 				(font
@@ -10493,6 +10808,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" "C919444"
+			(at 38.1 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6831cd31-c63f-4a13-a450-dfad2a5eba41")
 		)
@@ -10630,6 +10954,15 @@
 			)
 		)
 		(property "Reichelt Nr" "SMD-0805 4,70K"
+			(at 49.53 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Nr" "C60816"
 			(at 49.53 102.87 0)
 			(effects
 				(font
@@ -10782,6 +11115,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Nr" ""
+			(at 76.2 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "tankuhr"
 				(path "/1ac5f5cb-42dc-4555-9731-1dcf739e4be9"
@@ -10845,6 +11187,15 @@
 			)
 		)
 		(property "Reichelt Nr" ""
+			(at 248.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Nr" "C585350"
 			(at 248.92 48.26 0)
 			(effects
 				(font
@@ -11012,6 +11363,15 @@
 			)
 		)
 		(property "Reichelt Nr" "PTC FSMD1001206R"
+			(at 151.13 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Nr" "C7542957"
 			(at 151.13 106.68 90)
 			(effects
 				(font
