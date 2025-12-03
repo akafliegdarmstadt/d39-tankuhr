@@ -4583,7 +4583,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 41.91) (xy 87.63 41.91)
+			(xy 81.28 41.91) (xy 90.17 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4909,7 +4909,7 @@
 	)
 	(global_label "D0"
 		(shape input)
-		(at 87.63 41.91 0)
+		(at 90.17 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4919,7 +4919,7 @@
 		)
 		(uuid "2c8190f2-5f7f-45f3-8926-db289a25c234")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.0947 41.91 0)
+			(at 95.6347 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
